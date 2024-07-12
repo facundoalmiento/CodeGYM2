@@ -1,7 +1,22 @@
+@media (min-width: 1920px){
+  .titulo-principal-index {
+    top: 45%;
+    left: 20%;
+     position: absolute;
+    color: $color-principal-claro;
+    font-family:"Anton", sans-serif;
+    font-size: 160px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+    text-align: center;
+    }
+}
+
+
+
 
 @media only screen and (min-width: 961px) { 
     .titulo-principal-index {
-        top: 45%;
+        top: 52%;
         left: 21%;
          position: absolute;
         color: $color-principal-claro;
