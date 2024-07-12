@@ -45,9 +45,13 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    color: var(--bs-heading-color);
+}
 
 .titulo-principal {
-    margin-bottom: 10px;
     color: $color-principal-claro;
     font-family: "Anton", sans-serif;
     font-size: 60px;

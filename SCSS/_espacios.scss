@@ -39,6 +39,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+main{ 
+    margin-top: 30%;
+}
 /* ------ESPACIOS/GALERIA------ */
 .gallery {
     display: flex;
@@ -55,7 +58,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 15px;
-    padding: 15px;
+    padding: 12px;
   }
   
   .gallery-item {
