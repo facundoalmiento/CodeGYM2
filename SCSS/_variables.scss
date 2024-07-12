@@ -1,0 +1,11 @@
+//COLOR PRINCIPAL
+$color-principal-claro: #d7ff37;
+$color-principal-oscuro: #212529;
+$color-titulo-secundario: #252735;
+
+// $shadow: map-get(black-shadow-color);
+$black-shadow-color: (
+  "dark": rgba(0, 0, 0, 0.9)
+);
+
+$shadow: map-get($black-shadow-color, "dark");

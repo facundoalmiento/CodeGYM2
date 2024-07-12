@@ -1,0 +1,10 @@
+@mixin font ($size, $weight, $family) {
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+}
+
+@mixin img ($width, $height) {
+    width: $width;
+    height: $height;
+}

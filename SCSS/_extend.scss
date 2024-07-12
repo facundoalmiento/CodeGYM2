@@ -1,0 +1,61 @@
+
+@media only screen and (min-width: 961px) { 
+    .titulo-principal-index {
+        top: 45%;
+        left: 21%;
+         position: absolute;
+        color: $color-principal-claro;
+        font-family:"Anton", sans-serif;
+        font-size: 120px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+        text-align: center;
+        }
+        .titulo-principal {
+          margin-top: 11%;
+          color: $color-principal-claro;
+          font-family: "Anton", sans-serif;
+          font-size: 130px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+          text-align: center;
+        }
+        .titulo-secundario {
+          display: flex;
+          justify-content: center;
+          color: #252735;
+          font-family: "Anton", sans-serif;
+          font-size: 70px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          margin: 20px;
+        }      
+}
+
+@media only screen and (max-width: 500px) {
+
+.titulo-principal {
+    margin-bottom: 10px;
+    color: $color-principal-claro;
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+    text-align: center;
+}
+
+.titulo-principal-index {
+    top: 30%;
+     position: absolute;
+    color: $color-principal-claro;
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+    text-align: center;
+}
+
+.titulo-secundario {
+    display: flex;
+    justify-content: center;
+    color: #252735;
+    font-family: "Anton", sans-serif;
+    font-size: 41px;
+    text-shadow: 2px 2px 4px $shadow;
+  }
+}

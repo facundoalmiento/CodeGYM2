@@ -1,0 +1,126 @@
+@media only screen and (min-width: 961px) { 
+/* ------FORMULARIO CONTACTO------ */
+.contact-form,
+.location {
+    margin: 20px 0;
+}
+
+.contact-form h2,
+.location h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* ------FIN DE FORMULARIO CONTACTO------ */
+.boton-enviar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #555;
+}
+
+.map-container {
+    text-align: center;
+}
+.main-contacto {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px $shadow;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 10px $shadow;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+/* ------CONTACTO------ */
+.contact-form,
+.location {
+    margin: 20px 0;
+}
+
+.contact-form h2,
+.location h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.boton-enviar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #555;
+}
+
+.map-container {
+  text-align: center;
+}
+.main-contacto {
+max-width: 90%;
+margin: 0 auto;
+margin-bottom: 25px;
+padding: 20px;
+background: #fff;
+box-shadow: 0 0 10px $shadow;
+}
+/* ------ FIN DE CONTACTO------ */
+}
